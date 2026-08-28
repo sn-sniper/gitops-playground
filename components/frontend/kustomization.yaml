@@ -5,8 +5,3 @@ resources:
   - web-deployment.yaml
   - web-service.yaml
   - web-ingress.yaml
-
-images:
-  - name: nginx
-    newName: sn-sniper/playground-app
-    newTag: v-77044de
