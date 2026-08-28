@@ -2,8 +2,7 @@ apiVersion: kustomize.config.k8s.io/v1beta1
 kind: Kustomization
 
 resources:
-  - ../../components/frontend/web-deployment.yaml
-  - ../../components/frontend/web-service.yaml
+  - ../../components/frontend
 
 # We can easily override things for production here without touching the components
 namespace: production
